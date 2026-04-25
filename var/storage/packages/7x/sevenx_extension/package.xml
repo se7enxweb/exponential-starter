@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="6.0.10-0"
+         development="false"
+         install_type="install">
+  <name>sevenx_extension</name>
+  <summary>sevenx extension</summary>
+  <description>sevenx extension</description>
+  <vendor>7x</vendor>
+  <type value="extension" />
+  <ezpublish>
+    <version>6.0.10-stable</version>
+    <named-version>6.0</named-version>
+  </ezpublish>
+  <packaging>
+    <timestamp>1705210212</timestamp>
+    <host>packages.se7enx.com</host>
+  </packaging>
+  <documents>
+    <document mime-type="text/plain"
+              name="LICENCE" />
+  </documents>
+  <simple-files />
+  <version>
+    <number>6.0</number>
+    <release>6.0.10-stable</release>
+  </version>
+  <licence>GPL</licence>
+  <state>stable</state>
+  <dependencies>
+    <provides />
+    <requires />
+    <obsoletes />
+    <conflicts />
+  </dependencies>
+  <install>
+    <item type="ezextension"
+          filename="extension-ezwebin"
+          sub-directory="ezextension" />
+    <item type="ezextension"
+          filename="extension-bcwebshop"
+          sub-directory="ezextension" />
+    <item type="ezextension"
+          filename="extension-sevenx_themes_simple"
+          sub-directory="ezextension" />
+    <item type="ezextension"
+          filename="extension-xrowmetadata"
+          sub-directory="ezextension" />
+  </install>
+  <uninstall>
+    <item type="ezextension"
+          filename="extension-ezwebin"
+          sub-directory="ezextension" />
+    <item type="ezextension"
+          filename="extension-bcwebshop"
+          sub-directory="ezextension" />
+    <item type="ezextension"
+          filename="extension-sevenx_themes_simple"
+          sub-directory="ezextension" />
+    <item type="ezextension"
+          filename="extension-xrowmetadata"
+          sub-directory="ezextension" />
+  </uninstall>
+</package>
