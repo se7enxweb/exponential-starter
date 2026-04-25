@@ -3,7 +3,7 @@
         'name' => 'se7enxweb/exponential',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'fdf232812317c2be32b023e63592a23c8236e94e',
+        'reference' => '294ab8b8a1733746b8aafa973349ccc22076d958',
         'type' => 'ezpublish-legacy',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -172,7 +172,7 @@
         'se7enxweb/exponential' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'fdf232812317c2be32b023e63592a23c8236e94e',
+            'reference' => '294ab8b8a1733746b8aafa973349ccc22076d958',
             'type' => 'ezpublish-legacy',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
