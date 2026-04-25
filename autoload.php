@@ -35,12 +35,10 @@ if ( !defined( 'EZCBASE_ENABLED' ) )
         // do nothing
     }
     // Composer if in eZ Platform context
-    /*
-    else if ( file_exists( __DIR__ . "/../vendor/autoload.php" ) )
+    /* else if ( file_exists( __DIR__ . "/../vendor/autoload.php" ) )
     {
         require_once __DIR__ . "/../vendor/autoload.php";
-    }
-    */
+    }*/
     // Composer if in eZ Publish legacy context
     else if ( file_exists( __DIR__ . "/vendor/autoload.php" ) )
     {
@@ -75,12 +73,12 @@ if ( !class_exists( 'ezpAutoloader', false ) )
 
                 if ( file_exists( __DIR__ . '/var/autoload/ezp_tests.php' ) )
                 {
-                    //$ezpTestClasses = require __DIR__ . '/var/autoload/ezp_tests.php';
+                    $ezpTestClasses = require __DIR__ . '/var/autoload/ezp_tests.php';
                 }
 
                 if ( $ezpExtensionClasses and $ezpTestClasses )
                 {
-                    self::$ezpClasses = $ezpTestClasses + $ezpExtensionClasses + $ezpKernelClasses;
+                    self::$ezpClasses = (array) $ezpTestClasses + $ezpExtensionClasses + $ezpKernelClasses;
                 }
                 else if ( $ezpExtensionClasses )
                 {
