@@ -1,9 +1,7 @@
-# Exponential 6.0.x
+# Exponential 6.0.x Starter Distribution
 ![Exponential - Powered by SQLite Logo](https://github.com/user-attachments/assets/b16a5e96-7483-4e83-b658-ac4fe92e84b8)
 
-
 ![Exponential - Project Logo](https://github.com/user-attachments/assets/c2f9e973-0b4f-4e58-ac76-f0308775e3c1)
-
 
 # Exponential Project Notice : 2025.08.12
 
@@ -24,6 +22,20 @@
 Previously before 2022, 7x was called Brookins Consulting who was the outspoken leader in the active Exponential Community and it's Portals for the past 24 years.
 
 # What is Exponential?
+
+## What is Exponential Starter Distribution
+
+The Exponential Starter Distribution or ESD is made up of a default installation of Exponential preconfigured for immediate use. It's settings come configured to load the default installation withour any configuration required. The database is configured to use a small SQLite Database in the var/storage/sqlite3/starter.db relative path with the document root (software installation).
+
+### What is the default 'admin' Password?
+
+The default 'admin' user password is 'publishing' (without the quotes) in the preconfigured default SQLite Database starter.db file provided by the ESD.
+
+Note: The original default password is still 'publish' upstream but after runing the setup wizard, the admin password requirements of the software, prevent this password by default as too short and thus insecure.
+
+### Exponential Unbreakable
+
+We strongly recommend placing the admin siteaccess under a HostMatch=host;uri configuration, web server virtual host (acccess) with a htpassword / htacccess password login prompt configuration in your virtual host configuration (conf / .htaccess file) to ensure your site is virtually unhackable (double login; two different accounts). Security experts have been preaching this configuration based security solution for decades. This step requires addition user configuration and thought.
 
 ## Recent improvements to Exponential
 Exponential (the application of interest) delivered to users worldwide by a web server (PHP built-in, Apache, Nginx, lighttpd, Among others).
