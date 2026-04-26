@@ -12,6 +12,3 @@
 /nbproject/
 /bin/linux/ezlupdate
 /bin/win32
-/vendor
-/composer.lock
-
