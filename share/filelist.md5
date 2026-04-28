@@ -1,12 +1,9 @@
 d3c3da531de3f903a6857f522f3ba0db  .gitattributes
 a65c763ef0340e232cfe8c274f56fca0  .github/FUNDING.yml
 19ea33bedac6294e29713211e8cf0e28  .gitignore
-1f8dc931ac9bf467b8bb52f49c47b12d  .htaccess
-36dadb1db6c4e493805c365641e8f5fe  .htaccess__backup_must_keep_v01
+665142ebbcfc2e94a5f71065deac298f  .htaccess
 ebea2bf16cb16d06aa66de3042fbf247  .htaccess_root
-0af3c7e44c963e167dace2486338accd  .htaccess~
 6f1b96d8c290abdef88145a2d5c34a83  .travis.yml
-2ddb3cec7bf3a1223fab914f77dfdd4c  .well-known/acme-challenge/.htaccess
 a184ff1f4cd1fd4ec3a82e7744fd7e62  CONTRIBUTING.md
 bfad9783b9653905a14c1d9987b3e535  COPYRIGHT.md
 4aa6535c902cde0b6324e712c82be714  LICENSE
@@ -119,7 +116,7 @@ da8a97ec6120651324eac6025344e771  bin/startup/debian/ezasynchronouspublisher.def
 48b0a8f89e5095abc1f6a0e056fd3108  bin/startup/rhel/ezasynchronouspublisher.defaults
 e24a27b29fd16aa43641b4750d9af2b1  composer.json
 f60cfd01b06c68d9a61b6b15e1dc7fda  composer.json.dist
-976f83ad157b34f36ea64f85ff4ff90f  composer.lock
+b913c8f7653bab206d20c5573400e900  composer.lock
 f7b8787e36dfb6f74f57759abd9f61a0  config.php-RECOMMENDED
 ef73cbde7034a42f05cef47644c5be09  cronjobs/basket_cleanup.php
 ed4ffb5e6b159dc25501b6faba4665e9  cronjobs/clusterpurge.php
@@ -7803,7 +7800,7 @@ fe5dbc66a3965f9f4bb7a3a5d3bb0759  extension/recaptcha/settings/recaptcha.ini.app
 c8cc1de93bd8aeb1faddb519bb996e64  extension/recaptcha/translations/fre-FR/translation.ts
 525a82b0a9eaca307746f70dcba3603c  extension/recaptcha/translations/pol-PL/translation.ts
 00b32a1ec372bb13a072a02121f71c18  extension/recaptcha/translations/untranslated/translation.ts
-b502aeed477a6de4d4dd69da4ba32331  extension/sevenx_themes_simple/.github/FUNDING.yml
+a65c763ef0340e232cfe8c274f56fca0  extension/sevenx_themes_simple/.github/FUNDING.yml
 eb723b61539feef013de476e68b5c50a  extension/sevenx_themes_simple/LICENSE
 997952899e23a7b668a65e47efa9763e  extension/sevenx_themes_simple/LICENSE.md
 e5a046010096dfef51c6aff9d2a3f320  extension/sevenx_themes_simple/composer.json
@@ -7990,6 +7987,8 @@ eac8d17d3d1a34af20af533c55113e6a  extension/sevenx_themes_simple/packages/produc
 7de76c0891cacd24ab8aab2359b310a7  extension/sevenx_themes_simple/settings/site.ini.append.php
 5932859418f3b5e7a3715f7cd29b7f7b  extension/sevenx_themes_simple/settings/siteaccess/sevenx_site_user/ezjscore.ini
 0e86dcbf99d326a22920a681bfcce51b  extension/sevenx_themes_simple/settings/siteaccess/sevenx_site_user/override.ini.append.php
+5932859418f3b5e7a3715f7cd29b7f7b  extension/sevenx_themes_simple/settings/siteaccess/site/ezjscore.ini
+0e86dcbf99d326a22920a681bfcce51b  extension/sevenx_themes_simple/settings/siteaccess/site/override.ini.append.php
 d3e1dc67679a5a3eb953d910dd14828e  extension/swark/.github/FUNDING.yml
 677fa9447ff2fa2a9399309f8011b471  extension/swark/README.md
 07c723094625adec507ef6f9cdf14792  extension/swark/autoloads/SwarkOperators.php
