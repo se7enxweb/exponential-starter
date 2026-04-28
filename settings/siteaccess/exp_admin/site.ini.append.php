@@ -42,7 +42,7 @@ SiteLanguageList[]=eng-US
 TextTranslation=enabled
 
 [FileSettings]
-VarDir=var/sevenx_site
+VarDir=var/site
 
 [ContentSettings]
 CachedViewPreferences[full]=admin_navigation_content=1;admin_children_viewmode=list;admin_list_limit=1
