@@ -2811,24 +2811,24 @@
         },
         {
             "name": "se7enxweb/sevenx_themes_simple",
-            "version": "v1.0.5",
-            "version_normalized": "1.0.5.0",
+            "version": "v1.0.6",
+            "version_normalized": "1.0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/se7enxweb/sevenx_themes_simple.git",
-                "reference": "749bde308b1ba95ce990fe626afc0a20491fab09"
+                "reference": "df92e6dc6b67c7284a45dada793dccad4536bcc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/se7enxweb/sevenx_themes_simple/zipball/749bde308b1ba95ce990fe626afc0a20491fab09",
-                "reference": "749bde308b1ba95ce990fe626afc0a20491fab09",
+                "url": "https://api.github.com/repos/se7enxweb/sevenx_themes_simple/zipball/df92e6dc6b67c7284a45dada793dccad4536bcc5",
+                "reference": "df92e6dc6b67c7284a45dada793dccad4536bcc5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.0.0",
                 "se7enxweb/ezpublish-legacy-installer": "*"
             },
-            "time": "2026-04-28T23:46:04+00:00",
+            "time": "2026-04-29T20:04:52+00:00",
             "type": "ezpublish-legacy-extension",
             "extra": {
                 "ezpublish-legacy-extension-name": "sevenx_themes_simple"
@@ -2859,7 +2859,7 @@
             ],
             "support": {
                 "issues": "https://github.com/se7enxweb/sevenx_themes_simple/issues",
-                "source": "https://github.com/se7enxweb/sevenx_themes_simple/tree/v1.0.5"
+                "source": "https://github.com/se7enxweb/sevenx_themes_simple/tree/v1.0.6"
             },
             "funding": [
                 {
