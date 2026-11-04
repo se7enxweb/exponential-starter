@@ -1686,7 +1686,7 @@ f70e408b920cba4fbae5c49a137cfa9f  design/standard/templates/package/uninstall.tp
 be3d34e4f3fa25b47c595049240ffb49  design/standard/templates/package/upload.tpl
 4002a96a260832a161c352e49cd3c197  design/standard/templates/package/view/files.tpl
 4c3931e253469d294bd984d2d794212c  design/standard/templates/package/view/full.tpl
-016f5a9e6240ad2f3373ee075e92ada3  design/standard/templates/page_copyright.tpl
+5dc595ad7b3d7d1cae1acea22c93ae7a  design/standard/templates/page_copyright.tpl
 4c07d19bb670f9f15263e6263f6ed81e  design/standard/templates/page_head.tpl
 bc0a0b0aa1c26c512e5ac1f196379427  design/standard/templates/page_head_displaystyles.tpl
 f061d1ccc56b10ebe5653c5e011329e1  design/standard/templates/page_mainarea.tpl

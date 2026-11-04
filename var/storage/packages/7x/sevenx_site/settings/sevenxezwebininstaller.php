@@ -1537,7 +1537,7 @@ class SevenxeZWebinInstaller extends eZSiteInstaller
                 "DataText" => "Site settings" 
             ), 
             "footer_text" => array( 
-                "DataText" => "Copyright &#169; " . date( 'Y' ) . " <a href=\"https://se7enx.com\" title=\"7x\">7x</a> (except where otherwise noted). All rights reserved." 
+                "DataText" => "Copyright &#169; " . date( 'Y' ) . " Exponential Foundation and <a href=\"https://se7enx.com\" title=\"7x\">7x</a> (except where otherwise noted). All rights reserved." 
             ), 
             "hide_powered_by" => array( 
                 "DataInt" => 0 
